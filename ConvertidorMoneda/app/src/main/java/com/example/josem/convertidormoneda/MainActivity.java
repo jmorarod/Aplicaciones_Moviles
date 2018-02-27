@@ -55,14 +55,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if(crc_usd.isChecked()){
                     crc_usd.setChecked(false);
                     crc_usd.setSelected(false);
-                    break;
+                    
                 }
+                break;
             case R.id.rBtnCRCUSD:
                 if(usd_crc.isChecked()){
                     usd_crc.setChecked(false);
                     usd_crc.setSelected(false);
-                    break;
+
                 }
+                break;
         }
     }
 }
